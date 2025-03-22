@@ -1,15 +1,24 @@
-const iframe = document.querySelector('#iFrame');
+let iFrame = document.getElementById("iFrame");
 
-iframe.addEventListener('load', () => {
-  console.log('iframe loaded');
-  let iframeHeight = iframe.contentWindow.document.body.scrollHeight;
-  let iframeWidth = iframe.contentWindow.document.body.scrollWidth;
-  console.log('iframe height', iframeHeight);
-  console.log('iframe width', iframeWidth);
+console.log('iFrame', iFrame);
 
-  iframe.style.height = iframeHeight + 'px';
-  iframe.style.width = iframeWidth + 'px';
+// iFrame.onload = function () {
+//   iFrame.style.height = iFrame.contentWindow.document.body.scrollHeight + 'px';
+// }
 
-  document.body.style.paddingBottom = iframeHeight + 20 + 'px';
-  document.body.style.paddingRight = iframeWidth + 20 + 'px';
-});
+// let button = document.getElementById("pup-scouts-chatbot-closed-button");
+let button = document.getElementsByTagName("button")[0];
+console.log(document.getElementsByTagName("button"));
+console.log('button', button);
+
+// document.getElementById('toggleButton').addEventListener('click', function() {
+//   var content = document.querySelector('.content');
+//   content.classList.toggle('expanded');
+//
+//   var dimensions = {
+//     width: content.offsetWidth,
+//     height: content.offsetHeight
+//   };
+//
+//   window.parent.postMessage(dimensions, '*');
+// });
