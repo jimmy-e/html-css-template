@@ -7,9 +7,10 @@ console.log('iFrame', iFrame);
 // }
 
 // let button = document.getElementById("pup-scouts-chatbot-closed-button");
-let button = document.getElementsByTagName("button")[0];
-console.log(document.getElementsByTagName("button"));
-console.log('button', button);
+let x = document.getElementById('pup-scouts-chatbot-closed-button')
+console.log(x);
+console.log(x);
+console.log(x);
 
 // document.getElementById('toggleButton').addEventListener('click', function() {
 //   var content = document.querySelector('.content');
