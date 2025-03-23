@@ -1,25 +1,9 @@
-let iFrame = document.getElementById("iFrame");
+const button = document.getElementById('sample-button');
 
-console.log('iFrame', iFrame);
+console.log('button', button);
+console.log('button', button);
+console.log('button', button);
 
-// iFrame.onload = function () {
-//   iFrame.style.height = iFrame.contentWindow.document.body.scrollHeight + 'px';
-// }
-
-// let button = document.getElementById("pup-scouts-chatbot-closed-button");
-let x = document.getElementById('pup-scouts-chatbot-closed-button')
-console.log(x);
-console.log(x);
-console.log(x);
-
-// document.getElementById('toggleButton').addEventListener('click', function() {
-//   var content = document.querySelector('.content');
-//   content.classList.toggle('expanded');
-//
-//   var dimensions = {
-//     width: content.offsetWidth,
-//     height: content.offsetHeight
-//   };
-//
-//   window.parent.postMessage(dimensions, '*');
-// });
+button.addEventListener('click', function(event) {
+  console.log("Clicked button ID: " + event.target.id);
+});
