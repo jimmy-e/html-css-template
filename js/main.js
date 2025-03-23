@@ -1,9 +1,6 @@
-const button = document.getElementById('sample-button');
-
-console.log('button', button);
-console.log('button', button);
-console.log('button', button);
+const button = document.getElementById('chatbot-button');
+const iFrameContainer = document.getElementById('iFrameContainer');
 
 button.addEventListener('click', function(event) {
-  console.log("Clicked button ID: " + event.target.id);
+  iFrameContainer.style.visibility = 'visible';
 });
