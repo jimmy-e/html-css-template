@@ -24,6 +24,17 @@ body {
     right: 24px;
 }
 
+@media (max-width: 640px) {
+    #iFrameContainer {
+        width: 95vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #iFrame {
+        width: 100%;
+    }
+}
+
 #chatbot-button {
     background: #f05a2c;
     border: none;
