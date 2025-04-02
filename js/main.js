@@ -17,5 +17,5 @@ button.addEventListener('click', function(event) {
     xIcon.style.visibility = 'hidden';
   }
 
-  isOpen = !is;
+  isOpen = !isOpen;
 });
