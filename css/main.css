@@ -7,21 +7,21 @@ body {
 
 #iFrame {
     border: none;
-    height: 600px;
-    width: 600px;
+    height: 598px;
+    width: 350px;
 }
 
 #iFrameContainer {
     background: pink;
     position: absolute;
     visibility: hidden;
-    height: 600px;
-    width: 600px;
+    height: 598px;
+    width: 350px;
     display: flex;
     justify-content: end;
     align-items: end;
-    bottom: 12px;
-    right: 12px;
+    bottom: 128px;
+    right: 24px;
 }
 
 #chatbot-button {
