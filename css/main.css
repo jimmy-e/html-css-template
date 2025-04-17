@@ -20,18 +20,17 @@ body {
     display: flex;
     justify-content: end;
     align-items: end;
-    bottom: 128px;
+    bottom: 112px;
     right: 24px;
 }
 
-@media (max-width: 640px) {
-    #iFrameContainer {
-        width: 95vw;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    #iFrame {
+@media only screen and (max-width: 640px) {
+    #iFrameContainer, #iFrame {
         width: 100%;
+        /*       height: calc(100vh - 112px); */
+    }
+    #iFrameContainer {
+        right: 0px;
     }
 }
 
@@ -52,11 +51,11 @@ body {
     bottom: 20px;
     box-shadow: 0 3px 8px rgba(0,0,0,.24);
     cursor: pointer;
-    height: 100px;
+    height: 80px;
     overflow: hidden;
     position: absolute;
     right: 20px;
-    width: 100px;
+    width: 80px;
 }
 
 #paw-icon, #x-icon {
@@ -64,12 +63,12 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
-    width: 54px;
-    height: 54px;
+    width: 40px;
+    height: 40px;
 }
 
 #paw-icon {
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 #x-icon {
